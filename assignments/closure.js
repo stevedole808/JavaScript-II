@@ -5,6 +5,15 @@
 // The outer scope can be a parent function, or the top level of the script.
 
 
+const firstName = 'Steve';
+function greet() { 
+  const lastName = 'Dole';
+  alert(`The name's ${lastName}, ${firstName} ${lastName}`);
+}
+console.log(firstName);
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
